@@ -71,6 +71,24 @@ Launch the prebuilt application, serving compiled assets efficiently without dev
 npm run start
 ```
 
+### 5. Deployment Options
+
+Depending on your target hosting model, you can choose static or full-stack pathways:
+
+#### A. Static Client-Only Deployment (GitHub Pages, Vercel, Netlify)
+If you wish to deploy just the frontend static client bundle to **GitHub Pages**, we have configured a ready-to-run deploy script:
+
+```bash
+npm run deploy
+```
+
+> **Note:** Static deployments serve code built in `dist/`, but will skip the custom Express server-side routes (CMS changes will persist locally/session-based rather than through dynamic server-side proxy).
+
+#### B. Full-Stack Deployment (Cloud Run, Railway, Render, Fly.io)
+For full-stack scenarios where both the Express server handles CMS mutations or real-time parameters, deploy the entire container. Platforms with Git-integrations will automatically read these variables from your `package.json`:
+- **Build command:** `npm run build`
+- **Start command:** `npm run start`
+
 ---
 
 ## 📡 Automated CI/CD (GitHub Ready build)
