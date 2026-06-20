@@ -1,5 +1,5 @@
 {
-  "name": "Hideaway Group Website and CMS",
+  "name": "Hideaway Group — Boutique Living. Refined.",
   "description": "A luxury boutique hospitality group website with an integrated CMS dashboard to manage properties and generate copywriting using Gemini API.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
