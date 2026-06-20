@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Playfair+Display:ital,wght@0,300;0,400;0,500;1,300;1,400&family=JetBrains+Mono:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, Cambria, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-stone-900: #141615;
+  --color-stone-950: #0F1110;
+  --color-stone-800: #2D302E;
+  --color-stone-850: #1A1D1B;
+  --color-stone-100: #E8E4DF;
+  --color-stone-200: #DCD8D3;
+  --color-stone-300: #BEBAB5;
+  --color-stone-400: #8D918E;
+  --color-amber-400: #D4C2AD;
+  --color-amber-500: #D4C2AD;
+  --color-amber-600: #C2AFA0;
+}
+
