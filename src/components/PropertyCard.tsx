@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { Property } from "../types.ts";
 import { MapPin, Users, Maximize, Key } from "lucide-react";
 

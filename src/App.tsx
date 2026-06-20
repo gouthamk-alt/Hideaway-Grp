@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "motion/react";
+import { motion, AnimatePresence } from "framer-motion";
 import { CMSContent, Property, JournalPost } from "./types.ts";
 import { defaultCMSContent } from "./defaultData.ts";
 import HeroSection from "./components/HeroSection.tsx";
